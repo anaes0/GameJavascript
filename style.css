@@ -1,0 +1,47 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}body { 
+	background-color:white;
+	color:#50595c;
+	font-family:Roboto, 'Segoe UI', Tahoma, sans-serif;	
+}
+
+.container{
+	max-width:500px;
+	height:100vh;
+	max-height:700px;
+	margin:0 auto;
+	background-color:#ffe9e3; /*REMOVE*/
+	display: flex;
+	flex-direction:column;
+	justify-content:space-around;
+	border:5px solid #9fd3c7;
+	box-shadow:5px 5px 5px #ececec;
+}
+h1{
+	text-align:center;
+	font-size:35px;
+	padding:20px;
+}
+
+#text-intro{
+	font-size:30px;
+	text-align: center;
+	padding:20px;
+}
+.PCnote{
+	font-size:20px;
+	text-align:center;
+	padding:5px;
+}
+#buttonGroup{
+	/*background:pink;*/
+	margin:10px;
+	display: flex;
+	width: 95%;
+}
+#buttonGroup > button > img{
+	width:100%;
+}
